@@ -1,0 +1,36 @@
+
+.jumbotron {
+    text-align: center;
+    background-color: #94F1E0;
+    font-size: 16px;
+}
+img {
+	max-width: 250px;
+	max-height: 250px;
+}
+
+label {
+    color: #02352C;
+		font-size: 22px;
+}
+
+.btn-default {
+    color: #147E9A;
+    font-size: 16px;
+}
+
+body {
+	background-image: url("../images/images.jpeg");
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-size: cover;
+}
+
+.holder {
+    float: left;
+}
+button, div, form, input {
+	margin: 5px;
+  font-size: 16px;
+	color: #0CA086;
+}
