@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
-    var displayedButtons = ["Cow", "Dog", "Cat"];
+    var displayedButtons = ["Cow", "Dog", "Cat", "Rabbit", "Penguin"];
 
     function displayImg(){
 
         $("#display-images").empty();
         var input = $(this).attr("data-name");
-        var limit = 10;
+        var limit = 20;
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=e7d30fe9f9bc412fa7cee6892c256b94";
 
         $.ajax({
